@@ -23,3 +23,5 @@ Route::get('/bakery', [PrincipalController::class, 'bakery']);
 Route::get('/sobre', [PrincipalController::class, 'sobre']);
 
 Route::get('/form', [PrincipalController::class, 'form']);
+
+Route::post('/form', [PrincipalController::class, 'enviarForm']);

@@ -92,7 +92,7 @@
 
     <main>
         <h2>Fale Conosco</h2>
-        <form action="{{ url('/form') }}" method="POST">
+        <form method="POST">
             @csrf
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" required>

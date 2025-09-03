@@ -18,4 +18,8 @@ class PrincipalController extends Controller
     {
         return view('form');
     }
+    public function enviarForm(Request $request)
+    {
+        dd($request->post());
+    }
 }
