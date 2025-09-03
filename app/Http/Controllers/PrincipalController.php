@@ -14,4 +14,8 @@ class PrincipalController extends Controller
     {
         return view('sobre');
     }
+    public function form()
+    {
+        return view('form');
+    }
 }

@@ -21,3 +21,5 @@ Route::get('/', function () {
 Route::get('/bakery', [PrincipalController::class, 'bakery']);
 
 Route::get('/sobre', [PrincipalController::class, 'sobre']);
+
+Route::get('/form', [PrincipalController::class, 'form']);
