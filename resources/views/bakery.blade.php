@@ -161,9 +161,9 @@
     <nav>
       <ul>
         <li><a href="#home">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="/sobre">Sobre</a></li>
         <li><a href="#produtos">Produtos</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="/form">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -178,14 +178,14 @@
     <section id="sobre">
       <h2>Sobre Nós</h2>
       <p>A Padaria Três Irmãos foi criada por Neil, Miguel e Ligabo, três irmãos alemães que trouxeram para o centro de Cruzeiro o sabor autêntico de sua tradição. Unimos receitas clássicas e o carinho brasileiro para oferecer pães, bolos e doces feitos com qualidade e dedicação. Aqui, cada fornada é mais que comida: é família, cultura e aconchego.</p>
-      <img src="{{ asset('img/nós.png') }}" alt="Fundadores da Padaria Três Irmãos">
+      <img src="{{ asset('img/nos.png') }}" alt="Fundadores da Padaria Três Irmãos">
     </section>
 
     <section id="produtos">
       <h2>Nossos Produtos</h2>
       <div class="produtos-grid">
         <div class="produto">
-          <img src="{{ asset('img/pão_frances-removebg-preview.png') }}" alt="Pão Francês">
+          <img src="{{ asset('img/pao_frances-removebg-preview.png') }}" alt="Pão Francês">
           <h3>Pão Francês</h3>
           <p>R$ 5,00</p>
         </div>
